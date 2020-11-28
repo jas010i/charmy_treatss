@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    display: block;
+    background-color: rgb(255, 49, 83);
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: +99999;
+    width: 100%;
+}
+
+header > div.header-title > img {
+    width: 15%;
+    margin-left: 42.5%;
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar {
+    font-size: 4vw;
+}
+
+.navbar > a:hover {
+    font-size: 5vw;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.navbar > a {
+    border: none;
+    color: white;
+    background-color: rgb(255, 49, 83);
+    width: 20%;
+    display: block;
+    float: left;
+    padding: 2%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+
+.navbar > a.active {
+    font-weight: 900;
+    font-size: 4.5vw;
+}
+
+div.treat-feed {
+    display: block;
+    position: relative;
+    margin-top: 40%;
+}
+
+div.treat-feed > div.sample > img {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+div.treat-feed > h1 {
+    margin-left: 2%;
+    width: 96%;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 8vw;
+}
+
+div.treat-feed > div.sample > h3 {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin-left: 2%;
+    font-size: 6vw;
+}
