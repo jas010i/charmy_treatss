@@ -13,6 +13,7 @@ header {
     position: fixed;
     top: 0;
     z-index: +99999;
+    width: 100%;;
 }
 
 header > div.header-title > img {
@@ -52,7 +53,8 @@ button:focus {
 
 .navbar > a.active {
     font-weight: 900;
-    font-size: 4.5vw;
+    font-size: 6vw;
+    color: gold;
 }
 
 div.welcome-body {

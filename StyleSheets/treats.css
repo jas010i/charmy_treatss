@@ -52,11 +52,6 @@ button:focus {
     text-decoration: none;
 }
 
-.navbar > a.active {
-    font-weight: 900;
-    font-size: 4.5vw;
-}
-
 div.treat-feed {
     display: block;
     position: relative;
