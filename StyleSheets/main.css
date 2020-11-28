@@ -53,7 +53,7 @@ button:focus {
 
 .navbar > a.active {
     font-weight: 900;
-    font-size: 6vw;
+    font-size: 4.5vw;
     color: gold;
 }
 
