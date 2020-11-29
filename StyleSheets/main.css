@@ -16,7 +16,7 @@ header {
     width: 100%;;
 }
 
-header > div.header-title > img {
+header > div.header-title > a > img {
     width: 15%;
     margin-left: 42.5%;
 }
