@@ -13,10 +13,18 @@ header {
     position: fixed;
     top: 0;
     z-index: +99999;
-    width: 100%;;
+    width: 100%;
 }
 
-header > div.header-title > a > img {
+header > div.header-title > a > img#background {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    filter: opacity(.2);
+}
+
+header > div.header-title > a > img#logo {
     width: 15%;
     margin-left: 42.5%;
 }
@@ -39,7 +47,6 @@ button:focus {
 .navbar > a {
     border: none;
     color: white;
-    background-color: rgb(255, 49, 83);
     width: 20%;
     display: block;
     float: left;
@@ -105,6 +112,7 @@ footer > .footer-list > a {
     font-size: 5vw;
     text-decoration: none;
     transition: .5s ease-in-out;
+    z-index: +1;
 }
 
 footer > .footer-list2 {
@@ -122,6 +130,7 @@ footer > .footer-list2 > a {
     font-size: 5vw;
     text-decoration: none;
     transition: .5s ease-in-out;
+    z-index: +1;
 }
 
 footer > p#copyright {
@@ -131,4 +140,11 @@ footer > p#copyright {
     font-size: 2vw;
     margin: 0;
     padding-top: 15%;
+}
+
+footer > img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    filter: opacity(.7);
 }
