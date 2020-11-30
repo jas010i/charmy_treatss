@@ -24,9 +24,12 @@ header > div.header-title > a > img#background {
     filter: opacity(.2);
 }
 
-header > div.header-title > a > img#logo {
-    width: 15%;
-    margin-left: 42.5%;
+img#logo {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+    display: block;
+    position: relative;
 }
 
 button:focus {
@@ -67,12 +70,11 @@ button:focus {
 div.welcome-body {
     display: block;
     position: relative;
-    margin-top: 40%;
+    margin-top: 10%;
 }
 
-div.welcome-body > h1 {
-    margin-left: 2%;
-    width: 96%;
+h1#welcome-message {
+    text-align: center;
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
     font-weight: bolder;
