@@ -22,6 +22,203 @@ header > div.header-title > a > img#background {
     position: absolute;
     z-index: -1;
     filter: opacity(.2);
+    display: none;
+}
+
+header > div.header-title > a > img#logo {
+    width: 7%;
+    margin-left: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 2%;
+    width: 70%;
+    left: 7%;
+}
+
+.navbar > a:hover {
+    font-size: 2vw;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.navbar > a {
+    border: none;
+    color: white;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+
+div.welcome-body {
+    display: block;
+    position: relative;
+    margin-top: 10%;
+}
+
+div.welcome-body > h1 {
+    margin-left: 2%;
+    width: 96%;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 4vw;
+}
+
+div.welcome-body > h3 {
+    margin-left: 2%;
+    width: 96%;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+
+div.welcome-body > p {
+    margin-left: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 96%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.welcome-body > img {
+    width: 40%;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+div.welcome-body > a#treat-form-link {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 49, 83);
+    margin-left: 20%;
+    margin-bottom: 10%;
+    display: block;
+    width: 60%;
+    padding: 3%;
+    font-size: 2vw;
+    transition: .5s ease-in-out;
+    text-align: center;
+}
+
+div.welcome-body > a#treat-form-link:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+div.welcome-body > ul {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+div.welcome-body > p#treat-month {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+    font-weight: 700;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+footer {
+    background-color: rgb(255, 49, 83);
+    margin: 0;
+}
+
+footer > .footer-list {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 50%;
+    float: left;
+}
+
+footer > .footer-list > a {
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    z-index: +1;
+    cursor: pointer;
+}
+
+footer > .footer-list2 {
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 50%;
+}
+
+footer > .footer-list2 > a {
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    z-index: +1;
+    cursor: pointer;
+}
+
+footer > p#copyright {
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    margin: 0;
+    padding-top: 5%;
+}
+
+footer > img {
+    width: 100%;
+    display: none;
+    position: absolute;
+    filter: opacity(.7);
+}
+
+
+::marker {
+    color: rgb(255, 9, 50);
+}
+
+@media only screen and (max-width: 900px) {
+
+header {
+    display: block;
+    background-color: rgb(255, 49, 83);
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: +99999;
+    width: 100%;
+}
+
+header > div.header-title > a > img#background {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    filter: opacity(.2);
 }
 
 header > div.header-title > a > img#logo {
@@ -158,6 +355,7 @@ footer > .footer-list > a {
     text-decoration: none;
     transition: .5s ease-in-out;
     z-index: +1;
+    cursor: pointer;
 }
 
 footer > .footer-list2 {
@@ -176,6 +374,7 @@ footer > .footer-list2 > a {
     text-decoration: none;
     transition: .5s ease-in-out;
     z-index: +1;
+    cursor: pointer;
 }
 
 footer > p#copyright {
@@ -197,4 +396,6 @@ footer > img {
 
 ::marker {
     color: rgb(255, 9, 50);
+}
+
 }
