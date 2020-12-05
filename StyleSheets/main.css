@@ -42,6 +42,12 @@ button:focus {
     left: 7%;
 }
 
+.navbar > a.active {
+    font-weight: 900;
+    font-size: 2vw;
+    color: gold;
+}
+
 .navbar > a:hover {
     font-size: 2vw;
     transition: .3s ease-in-out;
