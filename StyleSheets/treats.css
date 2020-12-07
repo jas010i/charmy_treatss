@@ -10,7 +10,7 @@ div.treat-feed > h1 {
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 4vw;
 }
 
 div.accordion {
@@ -25,7 +25,7 @@ div.treat-feed > div.accordion > h3 {
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
     font-weight: bolder;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 div.treat-feed > div.accordion > h3 > svg {
@@ -59,4 +59,12 @@ div.google-order-form > iframe {
     overflow-y: hidden;
     margin-bottom: 20%;
     z-index: +5;
+}
+
+@media only screen and (max-width: 700px) {
+    div.treat-feed {
+        display: block;
+        position: relative;
+        margin-top: 40%;
+    }
 }
