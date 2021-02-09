@@ -13,10 +13,12 @@
 
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
         <!--Javascript Links Here-->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 
@@ -38,7 +40,7 @@
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="2000">
 
         <div class="header-title">
             <a href="index.html">
@@ -92,10 +94,10 @@
 
     <div class="welcome-body">
 
-        <h1>Welcome to Charmy Treats!</h1>
+        <h1>Hello! Welcome to Charmy Treats!</h1>
 
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div data-aos="fade-up" data-aos-duration="2000" id="myCarousel" class="carousel slide" data-ride="carousel">
             <h1 
             style="font-family: 'Amatic SC', sans-serif;font-size: 6vw;top: 0; width: 100%; position: absolute; z-index: +3; background-color: rgba(0, 0, 0, 0.205); color: rgb(255, 255, 255); font-weight: lighter; padding-left: 2%; padding-top: 2%; padding-bottom: 2%; margin: 0;">
             Treats of the Week
@@ -155,22 +157,24 @@
 
 
         
-        <h3>Treat of the Month</h3>
+        <h3 data-aos="fade-left" data-aos-duration="2000">Treat of the Month</h3>
 
-            <p id="treat-month">Oreo Bites</p>
-                <p id="treat-month">Price: 10 for $10 / 20 for $20</p>
-                <img src="Images/treats_page/treats-oreo-bites.jpg" alt="oreo bites">
+            <p data-aos="fade-left" data-aos-duration="2300" id="treat-month">Oreo Bites</p>
+                <p data-aos="fade-left" data-aos-duration="2300" id="treat-month">Price: 10 for $10 / 20 for $20</p>
+                <img data-aos="fade-left" data-aos-duration="2300" src="Images/treats_page/treats-oreo-bites.jpg" alt="oreo bites">
 
-            <h3>Top Picks</h3>
+            <h3 data-aos="fade-right" data-aos-duration="2000">Top Picks</h3>
 
-                <ul>
+                <ul data-aos="fade-right" data-aos-duration="2300">
                     <li>Strawberry Cheesecake</li>
                     <li>Chocolate Bundt Cake topped w/ Real Strawberries</li>
                     <li>Blueberry Pie</li>
                     <li>Apple Pie</li>
                 </ul>
 
-                <a id="treat-form-link" href="treat-order-form.html">Already know what you want to order?</a>
+                
+                <a id="treat-form-link" href="treat-order-form.html">
+                    Already know what you want to order?</a>
 
     </div>
 
@@ -207,7 +211,9 @@
     </footer>
     
     
-    
+    <script>
+        AOS.init();
+      </script>
     
     </body>
     

@@ -287,13 +287,13 @@ div.welcome-body > h1 {
 }
 
 div.welcome-body > h3 {
-    margin-left: 2%;
-    width: 96%;
+    margin: 5% 0 5% 2%;
+    width: 95%;
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
     font-weight: bolder;
     font-size: 6vw;
-    margin-bottom: 0;
+
 }
 
 div.welcome-body > p {
@@ -315,14 +315,13 @@ div.welcome-body > a#treat-form-link {
     text-decoration: none;
     color: white;
     background-color: rgb(255, 49, 83);
-    margin-left: 10%;
-    margin-bottom: 10%;
     display: block;
     width: 80%;
     padding: 3%;
     font-size: 5vw;
     transition: .5s ease-in-out;
     text-align: center;
+    margin: 20% 0 10% 10%;
 }
 
 div.welcome-body > a#treat-form-link:hover {
