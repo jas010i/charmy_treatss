@@ -14,23 +14,33 @@
         <!--CSS Links Here-->
         <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
         <link href="StyleSheets/my-story.css" rel="stylesheet" type="text/css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
         <!--Javascript Links Here-->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-        <!--Bootstrap/google font links here-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+        <!--Font links here-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 </head>
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="2000">
 
         <div class="header-title">
             <a href="index.html">
@@ -86,19 +96,19 @@
     <div class="my-story-body">
 
 
-            <h1>My Story</h1>
+            <h1 data-aos="fade-left" data-aos-duration="2000">My Story</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Nisi doloremque iure quasi nemo, illum officia, numquam 
                     minima accusamus dignissimos harum, iste odit cupiditate 
                     reprehenderit! Ea libero vero ex minus eum.</p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Nisi doloremque iure quasi nemo, illum officia, numquam 
                         minima accusamus dignissimos harum, iste odit cupiditate 
                         reprehenderit! Ea libero vero ex minus eum.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                             Nisi doloremque iure quasi nemo, illum officia, numquam 
                             minima accusamus dignissimos harum, iste odit cupiditate 
                             reprehenderit! Ea libero vero ex minus eum.</p>
@@ -149,7 +159,9 @@
 </footer>
 
 
-
+<script>
+    AOS.init();
+  </script>
 
 </body>
 

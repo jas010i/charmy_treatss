@@ -14,24 +14,33 @@
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
             <link href="StyleSheets/review.css" rel="stylesheet" type="text/css">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
         <!--Javascript Links Here-->
-            <script src="Javascript/menu.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-        <!--Bootstrap/google font links here-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+        <!--Font links here-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 </head>
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="2000">
 
         <div class="header-title">
             <a href="index.html">
@@ -85,32 +94,32 @@
 
         <div class="review-feed">
 
-            <h1>Reviews</h1>
+            <h1 data-aos="fade-left" data-aos-duration="2000">Reviews</h1>
 
             <div class="review-block">
 
-        <hr>
+        <hr data-aos="fade-up" data-aos-duration="2000">
 
-                <h3>Mary R. <em>- San Antonio, TX</em></h3>
+                <h3 data-aos="fade-up" data-aos-duration="2000">Mary R. <em>- San Antonio, TX</em></h3>
 
-                    <p>Absolutely loved my pumpkin pie cheesecake! On my way
+                    <p data-aos="fade-up" data-aos-duration="2000">Absolutely loved my pumpkin pie cheesecake! On my way
                         to order more!
                     </p>
 
-        <hr>
+        <hr data-aos="fade-up" data-aos-duration="2000">
 
 
-                <h3>Jamie G. <em>- San Antonio, TX</em></h3>
+                <h3 data-aos="fade-up" data-aos-duration="2000">Jamie G. <em>- San Antonio, TX</em></h3>
 
-                    <p>LOVED my blueberry pie!</p>
+                    <p data-aos="fade-up" data-aos-duration="2000">LOVED my blueberry pie!</p>
 
-        <hr>
+        <hr data-aos="fade-up" data-aos-duration="2000">
 
-                <h3>Marcos S. <em>- Helotes, TX</em></h3>
+                <h3 data-aos="fade-up" data-aos-duration="2000">Marcos S. <em>- Helotes, TX</em></h3>
 
-                    <p>The strawberry cheesecake was absolutely phenomenal!</p>
+                    <p data-aos="fade-up" data-aos-duration="2000">The strawberry cheesecake was absolutely phenomenal!</p>
 
-        <hr style="margin-bottom: 10%;">
+        <hr data-aos="fade-up" data-aos-duration="2000" style="margin-bottom: 10%;">
 
             </div>
 
@@ -152,7 +161,11 @@
         </footer>
         
         
-        
+            
+    <script>
+        AOS.init();
+      </script>
+    
         
         </body>
         
