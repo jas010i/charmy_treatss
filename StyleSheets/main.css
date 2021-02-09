@@ -40,6 +40,7 @@ button:focus {
     top: 2%;
     width: 70%;
     left: 7%;
+    margin: 0 0 0 0;
 }
 
 .navbar > a.active {
@@ -273,7 +274,7 @@ button:focus {
 div.welcome-body {
     display: block;
     position: relative;
-    margin-top: 40%;
+    margin-top: 25%;
 }
 
 div.welcome-body > h1 {
