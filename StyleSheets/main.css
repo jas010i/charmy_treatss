@@ -437,7 +437,14 @@ div.welcome-body {
 }
 
 .main-weekly-updates > #myCarousel > h1 {
-    font-size: 1.5vw;
+    font-size: 6vw;
+}
+
+.carousel-caption {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5vw;
+    background-color: rgba(248, 16, 55, 0.418);
+    font-weight: 600;
 }
 
 
@@ -557,7 +564,8 @@ div.welcome-body > .main-treat #treat-month-img > img {
 div.welcome-body > .main-treat > ul {
     font-family: 'Amatic SC', cursive;
     margin: 5% 0 15% 0;
-    font-size: 1.7vw;
+    padding: 0;
+    font-size: 5vw;
     font-weight: 700;
     text-align: center;
 }
