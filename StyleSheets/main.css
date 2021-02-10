@@ -575,7 +575,7 @@ footer {
 }
 
 footer > .footer-list {
-    padding-top: 10%;
+    padding-top: 5%;
     width: 50%;
     float: left;
 }
@@ -594,7 +594,7 @@ footer > .footer-list > a {
 
 footer > .footer-list2 {
     display: inline-block;
-    padding-top: 10%;
+    padding-top: 5%;
     width: 50%;
 }
 
