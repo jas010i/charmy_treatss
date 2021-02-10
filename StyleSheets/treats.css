@@ -98,7 +98,15 @@ input {
     width: 100%;
     float: left;
     font-family: 'Amatic SC', cursive;
+    font-size: 6vw;
     font-weight: 900;
+    margin: 2% 0 2% 0;
+    border: none;
+    border-bottom: 1px solid rgb(248, 16, 55);
+}
+
+input:active {
+    border-bottom: 1px solid gold;
 }
 
 #treat-card > img {
