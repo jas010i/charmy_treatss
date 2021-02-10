@@ -79,12 +79,33 @@ a#treat-order-form {
     margin-bottom: 15%;
 }
 
-div.google-order-form > iframe {
+form {
+    display: block;
+    position: relative;
+    height: 1000px;
+}
+
+#treat-card {
+    width: 33%;
+    float: left;
+    background-color: white;
+    padding: 0 0 0 0;
+    margin: 5% 0 5% 0;
+}
+
+input {
     width: 100%;
-    margin-top: 40%;
-    overflow-y: hidden;
-    margin-bottom: 20%;
-    z-index: +5;
+    float: left;
+}
+
+#treat-card > img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#treat-card > select {
+    width: 20%;
+    margin: 2% 0 0 40%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -93,4 +114,5 @@ div.google-order-form > iframe {
         position: relative;
         margin-top: 40%;
     }
+
 }

@@ -81,7 +81,6 @@ button:focus {
 
 div.welcome-body {
     display: block;
-
     position: relative;
 }
 
@@ -224,6 +223,7 @@ div.welcome-body > a#treat-form-link:hover {
 
 footer {
     background-color: rgb(255, 49, 83);
+    width: 100%;
 }
 
 footer > .footer-list {
@@ -569,6 +569,9 @@ div.welcome-body > .main-treat > ul {
 
 footer {
     background-color: rgb(255, 49, 83);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer > .footer-list {
