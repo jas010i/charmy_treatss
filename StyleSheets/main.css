@@ -5,16 +5,28 @@
 html, body {
     margin: 0;
     overflow-x: hidden;
+    background: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 header {
     display: block;
     background-color: rgb(255, 49, 83);
     margin: 0;
-    position: fixed;
+    padding: 0 0 1% 0;
+    position: relative;
     top: 0;
-    z-index: +99999;
     width: 100%;
+}
+
+.header-title {
+    width: 10%;
+    display: block;
+    margin: 0;
 }
 
 header > div.header-title > a > img#background {
@@ -27,37 +39,39 @@ header > div.header-title > a > img#background {
 }
 
 header > div.header-title > a > img#logo {
-    width: 7%;
-    margin-left: 0;
+    width: 50%;
+    display: block;
+    margin: 0;
 }
 
 button:focus {
     outline: none;
 }
 
-.navbar {
-    font-size: 1.5vw;
+.navbar1 {
+    font-size: 1vw;
     position: absolute;
-    top: 2%;
-    width: 70%;
-    left: 7%;
-    margin: 0 0 0 0;
+    top: 0;
+    width: 80%;
+    margin: 0 0 0 5%;
 }
 
-.navbar > a.active {
+.navbar1 > a.active {
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 1.3vw;
     color: gold;
 }
 
-.navbar > a:hover {
-    font-size: 2vw;
+.navbar1 > a:hover {
+    font-size: 1.3vw;
     transition: .3s ease-in-out;
     cursor: pointer;
     font-weight: 700;
+    text-decoration: none;
+    color: gold;
 }
 
-.navbar > a {
+.navbar1 > a {
     border: none;
     color: white;
     position: relative;
@@ -72,54 +86,134 @@ button:focus {
 
 div.welcome-body {
     display: block;
+
     position: relative;
-    margin-top: 10%;
 }
 
-div.welcome-body > h1 {
-    margin-left: 2%;
-    width: 96%;
+.main-weekly-updates {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 189, 200);
+    -webkit-box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    -moz-box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    z-index: +1;
+}
+
+
+.main-weekly-updates > #myCarousel {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    margin: 2.5% 0 0 0;
+    overflow-y: hidden;
+}
+
+.main-weekly-updates > #myCarousel > h1 {
+    font-size: 1.5vw;
+}
+
+
+.carousel-caption {
     font-family: 'Amatic SC', cursive;
-    color: rgb(248, 16, 55);
-    font-weight: bolder;
-    font-size: 4vw;
+    font-size: 1vw;
+    background-color: rgba(248, 16, 55, 0.418);
+    font-weight: 600;
 }
 
-div.welcome-body > h3 {
-    margin-left: 2%;
+
+.main-weekly-updates > h1 {
+    margin: 3% 0 0 2%;
+    padding: 3% 0 0 0;
     width: 96%;
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
     font-weight: bolder;
     font-size: 2vw;
-    margin-bottom: 0;
 }
 
-div.welcome-body > p {
-    margin-left: 2%;
-    text-align: justify;
-    text-justify: inter-word;
+.main-weekly-updates > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    width: 50%;
+    font-weight: 700;
+    padding: 2% 0 2% 3%;
+    margin: 0;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+}
+
+div.welcome-body > h1 {
+    margin: 3% 0 3% 2%;
     width: 96%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 2vw;
 }
 
-div.welcome-body > img {
-    width: 40%;
-    margin-top: 0;
-    margin-left: 2%;
+div.welcome-body > .main-treat > h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin: 10% 0 0 0;
+    padding: 3% 0 3% 0;
 }
+
+div.welcome-body > .main-treat > p {
+    color: white;
+    background-color: rgb(255, 49, 83);
+    font-size: 1.5vw;
+    width: 100%;
+    padding: 2% 0 2% 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+
+.main-treat {
+    width: 60%;
+    margin: 0 0 0 20%;
+}
+
+
+.main-treat > #treat-month-img {
+    width:100%;
+    margin: 5% 0 0 0;
+    padding-bottom: 10%;
+}
+
+
+div.welcome-body > .main-treat #treat-month-img > img {
+    width: 40%;
+    margin: 0 0 0 30%;
+}
+
+div.welcome-body > .main-treat > ul {
+    font-family: 'Amatic SC', cursive;
+    margin: 5% 0 15% 0;
+    font-size: 1.7vw;
+    font-weight: 700;
+    text-align: center;
+}
+
 
 div.welcome-body > a#treat-form-link {
     font-family: 'Amatic SC', cursive;
     text-decoration: none;
     color: white;
     background-color: rgb(255, 49, 83);
-    margin-left: 20%;
-    margin-bottom: 10%;
+    margin: 0 0 5% 35%;
     display: block;
-    width: 60%;
-    padding: 3%;
-    font-size: 2vw;
+    width: 30%;
+    padding: 2%;
+    font-size: 1.5vw;
     transition: .5s ease-in-out;
     text-align: center;
 }
@@ -129,30 +223,17 @@ div.welcome-body > a#treat-form-link:hover {
     transition: .5s ease-in-out;
 }
 
-div.welcome-body > ul {
-    font-family: 'Amatic SC', cursive;
-    font-size: 2vw;
-    font-weight: 700;
-    margin-top: 0;
-}
 
-div.welcome-body > p#treat-month {
-    font-family: 'Amatic SC', cursive;
-    font-size: 2vw;
-    font-weight: 700;
-    width: 70%;
-    margin-top: 2%;
-    margin-left: 5%;
-}
+
+
 
 footer {
     background-color: rgb(255, 49, 83);
-    margin: 0;
 }
 
 footer > .footer-list {
     padding-top: 10%;
-    width: 50%;
+    width: 20%;
     float: left;
 }
 
@@ -170,7 +251,7 @@ footer > .footer-list > a {
 
 footer > .footer-list2 {
     display: inline-block;
-    padding-bottom: 10%;
+    padding-top: 10%;
     width: 50%;
 }
 
@@ -192,7 +273,7 @@ footer > p#copyright {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1vw;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 15%;
 }
 
 footer > img {
@@ -205,7 +286,32 @@ footer > img {
 
 ::marker {
     color: rgb(255, 9, 50);
+    font-size: 1vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************************************************************/
+/*************************************************************************************************************/
+                                            /* Mobile Layout */
+/*************************************************************************************************************/
+/*************************************************************************************************************/
+
 
 @media only screen and (max-width: 700px) {
 
@@ -233,26 +339,34 @@ header > div.header-title > a > img#logo {
     margin-left: 42.5%;
 }
 
+.header-title {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+
 button:focus {
     outline: none;
 }
 
-.navbar {
+.navbar1 {
     font-size: 4vw;
     display: block;
     position: relative;
     width: 100%;
     left: 0;
+    margin: 0;
 }
 
-.navbar > a:hover {
+.navbar1 > a:hover {
     font-size: 5vw;
     transition: .3s ease-in-out;
     cursor: pointer;
     font-weight: 700;
 }
 
-.navbar > a {
+.navbar1 > a {
     border: none;
     color: white;
     width: 20%;
@@ -266,7 +380,7 @@ button:focus {
     text-decoration: none;
 }
 
-.navbar > a.active {
+.navbar1 > a.active {
     font-weight: 900;
     font-size: 4.5vw;
     color: gold;
@@ -277,6 +391,55 @@ div.welcome-body {
     position: relative;
     margin-top: 25%;
 }
+
+.main-weekly-updates {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 189, 200);
+    -webkit-box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    -moz-box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    box-shadow: 4px 0px 12px -3px rgba(0,0,0,0.89);
+    z-index: +1;
+}
+
+.main-weekly-updates > h1 {
+    margin: 3% 0 0 2%;
+    padding: 3% 0 0 0;
+    width: 96%;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 6vw;
+}
+
+.main-weekly-updates > p {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    width: 100%;
+    font-weight: 700;
+    padding: 2% 0 2% 3%;
+    margin: 0;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+.main-weekly-updates > #myCarousel {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    margin: 2.5% 0 0 0;
+    overflow-y: hidden;
+}
+
+.main-weekly-updates > #myCarousel > h1 {
+    font-size: 1.5vw;
+}
+
 
 div.welcome-body > h1 {
     margin-left: 2%;
@@ -309,6 +472,18 @@ div.welcome-body > img {
     width: 100%;
     margin-top: 0;
     margin-left: 0;
+}
+
+.main-treat {
+    width: 80%;
+    margin: 80% 0 0 10%;
+}
+
+
+.main-treat > #treat-month-img {
+    width:100%;
+    margin: 5% 0 0 0;
+    padding-bottom: 10%;
 }
 
 div.welcome-body > a#treat-form-link {
@@ -344,6 +519,47 @@ div.welcome-body > p#treat-month {
     width: 70%;
     margin-top: 2%;
     margin-left: 5%;
+}
+
+
+div.welcome-body > .main-treat > h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 16, 55);
+    font-weight: bolder;
+    font-size: 6vw;
+    margin: 10% 0 0 0;
+    padding: 3% 0 3% 0;
+}
+
+div.welcome-body > .main-treat > p {
+    color: white;
+    background-color: rgb(255, 49, 83);
+    font-size: 5vw;
+    width: 100%;
+    padding: 2% 0 2% 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+div.welcome-body > .main-treat #treat-month-img {
+    margin: 0;
+}
+
+div.welcome-body > .main-treat #treat-month-img > img {
+    width: 100%;
+    margin: 0 0 0 0%;
+}
+
+div.welcome-body > .main-treat > ul {
+    font-family: 'Amatic SC', cursive;
+    margin: 5% 0 15% 0;
+    font-size: 1.7vw;
+    font-weight: 700;
+    text-align: center;
 }
 
 footer {
@@ -397,6 +613,7 @@ footer > p#copyright {
 
 footer > img {
     width: 100%;
+    height: 200px;
     display: block;
     position: absolute;
     filter: opacity(.7);
