@@ -621,7 +621,7 @@ footer > p#copyright {
 
 footer > img {
     width: 100%;
-    height: 200px;
+    height: 25%;
     display: block;
     position: absolute;
     filter: opacity(.7);
