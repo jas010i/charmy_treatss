@@ -86,6 +86,10 @@ form {
     margin: 40% 0 0 0;
 }
 
+.input-form {
+    width: 100%;
+}
+
 #treat-card {
     width: 25%;
     float: left;
