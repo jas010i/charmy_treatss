@@ -51,9 +51,6 @@ $pie_1 = $_POST['pie_1'];
 
 
 
-
-
-
 $mysqli = new mysqli("localhost", "iridescXnt343_auth_user", "$6927=Jas010i.s03107@%", "charmy_treats");
 
 if ($mysqli === false){
@@ -70,20 +67,16 @@ $cake_chocStraw = $_POST['cake_chocStraw'];
 $cakepop_1 = $_POST['cakepop_1'];
 $cakepop_2 = $_POST['cakepop_2'];
 $oreobites = $_POST['oreobites'];
-$pie_1 = $_POST['pie_1'];
 
 
 
-$sql = "INSERT INTO client_order (orderNumber, firstName, lastName,
+
+$sql = "INSERT INTO client_order (firstName, lastName,
         email, phoneNumber, orderDueDate, cheesecake_Strawberry, cheesecake_Raspberry,
-        cheesecake_Plain, cakepop_Chocolate(6), cakepop_Chocolate(12), cakepop_Vanilla(6),
-        cakepop_Vanilla(12), oreobites_4, oreobites_8, ccStrawberries_valentineColor(6),
-        ccStrawberries_valentineColor(12), ccStrawberries_classicDark(6), ccStrawberries_classicDark(12),
-        ccStrawberries_whiteChocolate(6), ccStrawberries_whiteChocolate(12), nakedCake_Chocolate,
-        nakedCake_Strawberry, nakedCake_redVelvet, dateOrdered)
+        cheesecake_Plain, cakepop_Chocolate6, cakepop_Chocolate12)
 
               VALUES ('$fname', '$lname', '$email', '$phoneNumber', '$date', '$cc_strawberry', 
-                     '$cake_chocStraw', '$cakepop_1', '$cakepop_2', '$oreobites', '$pie_1')";
+                     '$cake_chocStraw', '$cakepop_1', '$cakepop_2', '$oreobites')";
     if($mysqli->query($sql) === true){
       echo "Thank you for your submission.";
     } else{
