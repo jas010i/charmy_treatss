@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-attachment: scroll;
     background-repeat: repeat-y;
+    margin: 0;
 }
 
 
@@ -396,6 +397,7 @@ button:focus {
     font-size: 4.5vw;
     color: gold;
 }
+
 
 div.welcome-body {
     display: block;
