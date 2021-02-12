@@ -16,7 +16,8 @@ div.treat-feed > h1 {
 
 div.accordion {
     width: 100%;
-    margin-bottom: 20%;
+    margin: 0 0 100% 0;
+    display: block;
 }
 
 div.treat-feed > div.accordion > .offset-white > h3 {
@@ -70,18 +71,6 @@ div.accordion > .offset-pink > div.dropdown-list > img{
 }
 
 
-a#treat-order-form {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    font-family: 'Amatic SC', cursive;
-    color: rgb(248, 16, 55);
-    font-weight: bolder;
-    font-size: 4vw;
-    margin-bottom: 15%;
-    text-align: center;
-}
-
 
 
 
@@ -106,7 +95,6 @@ form {
 #treat-card {
     width: 50%;
     float: left;
-    background-color: white;
     padding: 0 0 0 0;
     margin: 5% 0 5% 0;
 }
@@ -118,6 +106,7 @@ input {
     font-size: 6vw;
     font-weight: 900;
     margin: 2% 0 2% 0;
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     border-bottom: 1px solid rgb(248, 16, 55);
 }
@@ -126,10 +115,21 @@ input:active {
     border-bottom: 1px solid gold;
 }
 
+::placeholder {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(248, 16, 55);
+}
+
 #submit-button {
     background-color: rgb(255, 159, 175);
     border-bottom: 4px solid rgb(248, 16, 55);
     padding: 2% 0 2% 0;
+}
+
+div.accordion {
+    width: 100%;
+    margin: 0 0 100% 0;
+    display: block;
 }
 
 #treat-card > img {
@@ -139,11 +139,33 @@ input:active {
 
 #treat-card > select {
     width: 80%;
+    border: 1px solid white;
     margin: 2% 0 0 10%;
+    background-color: rgba(248, 16, 55, 0.288);
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-weight: 900;
     font-size: 6vw;
+}
+
+
+ a.treat-form-link1 {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 49, 83);
+    margin: 0 0 5% 35%;
+    display: block;
+    width: 30%;
+    padding: 1%;
+    font-size: 1.5vw;
+    transition: .5s ease-in-out;
+    text-align: center;
+}
+
+ a.treat-form-link1:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
 }
 
 @media only screen and (max-width: 700px) {
@@ -151,6 +173,99 @@ input:active {
         display: block;
         position: relative;
         margin-top: 40%;
+        margin-bottom: 200%;
     }
+
+    form {
+        display: block;
+        position: relative;
+        height: 1000px;
+        margin: 40% 0 200% 0;
+    }
+    
+    .input-form {
+        width: 100%;
+        margin: 0 0 15% 0;
+        height: 250px;
+    }
+    
+    #treat-card {
+        width: 50%;
+        float: left;
+        padding: 0 0 0 0;
+        margin: 5% 0 5% 0;
+    }
+    
+    input {
+        width: 90%;
+        float: left;
+        font-family: 'Amatic SC', cursive;
+        font-size: 6vw;
+        font-weight: 900;
+        margin: 2% 0 2% 5%;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        border-bottom: 1px solid rgb(248, 16, 55);
+    }
+    
+    input:active {
+        border-bottom: 1px solid gold;
+    }
+    
+    #submit-button {
+        background-color: rgb(255, 159, 175);
+        border-bottom: 4px solid rgb(248, 16, 55);
+        padding: 2% 0 2% 0;
+    }
+
+
+
+    div.accordion > .offset-white > div.dropdown-list > img{
+        width: 17%;
+        border: 1px solid rgb(248, 16, 55);
+        border-radius: 360px;
+        margin: 2% 0 0 2%;
+    }
+    div.accordion > .offset-pink > div.dropdown-list > img{
+        width: 17%;
+        border: 1px solid rgb(248, 16, 55);
+        border-radius: 360px;
+        margin: 2% 0 0 2%;
+    }
+    
+    .offset-white {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding: 2% 0 5% 0;
+    }
+    
+    .offset-pink {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding: 2% 0 5% 0;
+        background-color: rgba(255, 123, 145, 0.493);
+    }
+
+    a.treat-form-link1 {
+        font-family: 'Amatic SC', cursive;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(255, 49, 83);
+        display: block;
+        width: 80%;
+        padding: 3%;
+        font-size: 5vw;
+        transition: .5s ease-in-out;
+        text-align: center;
+        margin: 20% 0 10% 10%;
+    }
+    
+    a.treat-form-link1:hover {
+        transform: scale(1.1);
+        transition: .5s ease-in-out;
+    }
+
 
 }

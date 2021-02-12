@@ -209,7 +209,7 @@ div.welcome-body > .main-treat > ul {
 }
 
 
-div.welcome-body > a#treat-form-link {
+div.welcome-body > a.treat-form-link {
     font-family: 'Amatic SC', cursive;
     text-decoration: none;
     color: white;
@@ -223,7 +223,7 @@ div.welcome-body > a#treat-form-link {
     text-align: center;
 }
 
-div.welcome-body > a#treat-form-link:hover {
+div.welcome-body > a.treat-form-link:hover {
     transform: scale(1.1);
     transition: .5s ease-in-out;
 }
@@ -511,7 +511,7 @@ div.welcome-body > img {
     padding-bottom: 10%;
 }
 
-div.welcome-body > a#treat-form-link {
+div.welcome-body > a.treat-form-link {
     font-family: 'Amatic SC', cursive;
     text-decoration: none;
     color: white;
@@ -525,7 +525,7 @@ div.welcome-body > a#treat-form-link {
     margin: 20% 0 10% 10%;
 }
 
-div.welcome-body > a#treat-form-link:hover {
+div.welcome-body > a.treat-form-link:hover {
     transform: scale(1.1);
     transition: .5s ease-in-out;
 }
