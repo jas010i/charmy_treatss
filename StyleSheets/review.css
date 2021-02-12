@@ -41,7 +41,7 @@ div.review-block > p {
 ::placeholder {
     font-family: 'Amatic SC', cursive;
     color: rgb(248, 16, 55);
-    font-size: 5vw;
+    font-size: 1.5vw;
 }
 
 form {
@@ -50,18 +50,16 @@ form {
     margin-bottom: 5%;
     font-family: 'Amatic SC', cursive;
     font-weight: 600;
-    font-size: 5vw;
+    font-size: 1.5vw;
 }
 
 input {
-    width: 90%;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0);
     padding: 2%;
     border: none;
     border-bottom: 1px solid rgb(248, 16, 55);
     transition: .5s ease-in-out;
-    font-family: 'Amatic SC', cursive;
-    font-size: 5vw;
 }
 
 input:focus {
@@ -70,10 +68,17 @@ input:focus {
     outline: none;
 }
 
-
+input#submit {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(248, 16, 55);
+    transition: .5s ease-in-out;
+}
 
 textarea {
-    width: 90%;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0);
     padding: 1%;
     margin: 2% 0 0 0;
@@ -135,5 +140,65 @@ textarea:focus {
         width: 80%;
         font-size: 4vw;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    ::placeholder {
+        font-family: 'Amatic SC', cursive;
+        color: rgb(248, 16, 55);
+        font-size: 5vw;
+    }
+
+    form {
+        width: 100%;
+        display: block;
+        margin-bottom: 5%;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+    
+    input {
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 2%;
+        border: none;
+        border-bottom: 1px solid rgb(248, 16, 55);
+        transition: .5s ease-in-out;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5vw;
+    }
+    
+    input:focus {
+        transform: scale(1.05);
+        border-bottom: 1px solid gold;
+        outline: none;
+    }
+    
+    input#submit {
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 2%;
+        border: none;
+        border-bottom: 1px solid rgb(248, 16, 55);
+        transition: .5s ease-in-out;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5vw;
+    }
+
+    
+    textarea {
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 1%;
+        margin: 2% 0 0 0;
+        border: none;
+        border-bottom: 1px solid rgb(248, 16, 55);
+        transition: .5s ease-in-out;
+    }
+    
+    textarea:focus {
+        transform: scale(1.05);
+        border-bottom: 1px solid gold;
+        outline: none;
     }
 }
