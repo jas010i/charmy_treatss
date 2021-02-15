@@ -14,11 +14,13 @@
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
             <link href="StyleSheets/custom.css" rel="stylesheet" type="text/css">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
         <!--Javascript Links Here-->
-            <script src="Javascript/menu.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 
         <!--Bootstrap/google font links here-->
@@ -31,7 +33,7 @@
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
 
         <div class="header-title">
             <a href="index.html">
@@ -82,17 +84,62 @@
 </header>
 
 
-    <div class="custom-body">
+    <div class="custom-body" data-aos="fade-up" data-aos-duration="1000">
 
         <h1>Custom Orders</h1>
+            <p>Please note that custom orders are subject to approval. The approximate wait time for
+                approval is 2-3 business days. You will receive our final decision via email at that time.
+            </p>
+
+
+
+
+        <form action="send_custom.php" method="POST">
+
+                <input id="fname" name="fname" type="text" placeholder="First Name" required>
+                <input id="lname" name="lname" type="text" placeholder="Last Name" required>
+                <input id="email" name="email" type="email" placeholder="Email" required>
+                <input id="phone" name="phone" type="tel" placeholder="Phone Number">
+                <input id="date" name="date" type="date" required>
+                <select id="cakeType" name="cakeType" required>
+                    <option value="">Select a cake type</option>
+                    <option value="Cake">Cake</option>
+                    <option value="cheeseCake">Cheesecake</option>
+                    <option value="cupCake">Cupcake</option>
+                    <option value="otherCake">Other</option>
+                </select>
+
+                <textarea id="text" name="text" maxlength="300" minlength="75" placeholder="Please enter in detail your exact requirements, and quantities needed for your order." required></textarea>
+
+                <input type="submit" value="Submit Order">
+
+
+
+
+        </form>
 
     </div>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
 
-        <img src="Images/logo_web/background-footer.png">
+        <img src="Images/logo_web/background-footer.png" alt="footer-background">
     
     
     
@@ -124,8 +171,12 @@
     
     
     
-    
+    <script>
+        AOS.init();
+    </script>
+
     </body>
-    
+
+
     
     </html>

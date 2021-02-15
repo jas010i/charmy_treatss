@@ -2,6 +2,10 @@ header {
     background-color: indigo;
 }
 
+.custom-body {
+    height: 1000px;
+}
+
 div.custom-body > h1 {
     margin-top: 10%;
     margin-left: 2%;
@@ -13,24 +17,50 @@ div.custom-body > h1 {
 }
 
 div.custom-body > p {
-    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 60%;
     font-family: 'Amatic SC', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
     font-size: 2vw;
-    font-weight: 700;
-    margin-top: 10%;
-    margin-bottom: 50%;
 }
 
-iframe {
+form {
     width: 100%;
-    overflow: hidden;
+    display: block;
+    margin-bottom: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 1vw;
 }
+
+input, textarea, select, option {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    border: none;
+    border-bottom: 2px solid indigo;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 1%;
+    margin: 0 0 2% 2%;
+}
+
+
+
 
 footer {
     background-color: indigo;
 }
 
 @media only screen and (max-width: 700px) {
+    
+    .custom-body {
+        margin-top: 40%;
+    }
+    
     div.custom-body > h1 {
         margin-top: 40%;
         margin-left: 2%;
@@ -40,4 +70,41 @@ footer {
         font-weight: bolder;
         font-size: 8vw;
     }    
+    
+    div.custom-body > p {
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 90%;
+        font-family: 'Amatic SC', cursive;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 5vw;
+    }
+    
+    form {
+        width: 100%;
+        display: block;
+        margin-bottom: 5%;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+    
+    input, textarea, select, option {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0);
+        float: left;
+        border: none;
+        border-bottom: 2px solid indigo;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 600;
+        font-size: 5vw;
+        padding: 1%;
+        margin: 0 0 4% 5%;
+    }
+    
+
+
+
+
 }
