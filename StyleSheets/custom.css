@@ -48,6 +48,10 @@ input, textarea, select, option {
     margin: 0 0 2% 2%;
 }
 
+input#submit {
+    background-color: indigo;
+    color: white;
+}
 
 
 
@@ -103,7 +107,10 @@ footer {
         margin: 0 0 4% 5%;
     }
     
-
+    input#submit {
+        background-color: indigo;
+        color: white;
+    }
 
 
 
