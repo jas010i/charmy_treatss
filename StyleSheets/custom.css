@@ -35,7 +35,7 @@ form {
     font-size: 1vw;
 }
 
-input, textarea, select, option {
+input, textarea, select, option, button {
     width: 70%;
     background-color: rgba(255, 255, 255, 0);
     float: left;
@@ -48,9 +48,10 @@ input, textarea, select, option {
     margin: 0 0 2% 2%;
 }
 
-input#submit {
+button#submit {
     background-color: indigo;
     color: white;
+    border: 1px solid indigo;
 }
 
 
