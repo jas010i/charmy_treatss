@@ -95,7 +95,7 @@ footer {
         font-size: 5vw;
     }
     
-    input, textarea, select, option {
+    input, textarea, select, option, button {
         width: 90%;
         background-color: rgba(255, 255, 255, 0);
         float: left;
@@ -108,7 +108,7 @@ footer {
         margin: 0 0 4% 5%;
     }
     
-    input#submit {
+    button#submit {
         background-color: indigo;
         color: white;
     }

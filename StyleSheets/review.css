@@ -95,9 +95,10 @@ input:focus {
 
 button#submit {
     width: 60%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(248, 16, 55);
     padding: 2%;
-    border: none;
+    color: white;
+    border: 1px solid rgb(248, 16, 55);
     border-bottom: 1px solid rgb(248, 16, 55);
     transition: .5s ease-in-out;
 }
@@ -213,7 +214,8 @@ textarea:focus {
     
     button#submit {
         width: 90%;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgb(248, 16, 55);
+        color: white;
         padding: 0%;
         border: none;
         border-bottom: 1px solid rgb(248, 16, 55);

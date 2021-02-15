@@ -133,9 +133,10 @@ input:active {
 #submit-button {
     width: 50%;
     margin-left: 25%;
+    color: white;
     margin-top: 5%;
-    background-color: rgb(255, 159, 175);
-    border-bottom: 4px solid rgb(248, 16, 55);
+    background-color: rgb(248, 16, 55);
+    border: 1px solid rgb(248, 16, 55);
     padding: 1% 0 1% 0;
 }
 
