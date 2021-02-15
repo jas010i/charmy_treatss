@@ -35,7 +35,8 @@ form {
     font-size: 1vw;
 }
 
-input, textarea, select, option, button {
+input, textarea, select, option, button,
+label {
     width: 70%;
     background-color: rgba(255, 255, 255, 0);
     float: left;
@@ -48,12 +49,19 @@ input, textarea, select, option, button {
     margin: 0 0 2% 2%;
 }
 
+label {
+    width: auto;
+}
+
 button#submit {
     background-color: indigo;
     color: white;
     border: 1px solid indigo;
 }
 
+::placeholder {
+    color: rgb(128, 24, 226);
+}
 
 
 footer {
@@ -95,7 +103,8 @@ footer {
         font-size: 5vw;
     }
     
-    input, textarea, select, option, button {
+    input, textarea, select, option, button,
+    label {
         width: 90%;
         background-color: rgba(255, 255, 255, 0);
         float: left;
@@ -106,6 +115,10 @@ footer {
         font-size: 5vw;
         padding: 1%;
         margin: 0 0 4% 5%;
+    }
+
+    label {
+        width: auto;
     }
     
     button#submit {

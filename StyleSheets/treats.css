@@ -109,7 +109,7 @@ form {
     margin: 5% 0 5% 0;
 }
 
-input {
+input, label {
     width: 46%;
     float: left;
     font-family: 'Amatic SC', cursive;
@@ -221,7 +221,9 @@ input:active {
         margin: 5% 0 5% 0;
     }
     
-    input {
+
+
+    input, label {
         width: 90%;
         float: left;
         font-family: 'Amatic SC', cursive;
@@ -234,6 +236,10 @@ input:active {
         border-bottom: 1px solid rgb(248, 16, 55);
     }
     
+    label {
+        width: auto;
+    }
+
     input:active {
         border-bottom: 1px solid gold;
     }
