@@ -48,6 +48,8 @@ header > div.header-title > a > img#logo {
     margin: 0;
 }
 
+
+
 button:focus {
     outline: none;
 }
@@ -62,15 +64,17 @@ button:focus {
 
 .navbar1 > a.active {
     font-weight: 900;
-    font-size: 1.3vw;
+    font-size: 1.7vw;
+    padding: 1% 0 0 2%;
     color: gold;
 }
 
 .navbar1 > a:hover {
-    font-size: 1.3vw;
+    font-size: 2vw;
     transition: .3s ease-in-out;
     cursor: pointer;
     font-weight: 700;
+    padding: 0 0 0 2%;
     text-decoration: none;
     color: gold;
 }
@@ -81,11 +85,26 @@ button:focus {
     position: relative;
     display: block;
     float: left;
-    padding: 2%;
+    font-size: 1.7vw;
+    padding: 1% 0 0 2%;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     transition: .3s ease-in-out;
     text-decoration: none;
+}
+
+#banner {
+    border: none;
+    color: white;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 div.welcome-body {
@@ -384,12 +403,17 @@ button:focus {
     width: 20%;
     display: block;
     float: left;
+    font-size: 4vw;
     padding: 2%;
     margin: 0;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     transition: .3s ease-in-out;
     text-decoration: none;
+}
+
+#banner {
+    display: none;
 }
 
 .navbar1 > a.active {

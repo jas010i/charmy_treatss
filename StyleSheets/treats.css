@@ -102,12 +102,7 @@ form {
     height: 250px;
 }
 
-#treat-card {
-    width: 33%;
-    display: inline-block;
-    padding: 0 0 0 0;
-    margin: 5% 0 5% 0;
-}
+
 
 input, label {
     width: 46%;
@@ -132,6 +127,8 @@ input:active {
 
 #submit-button {
     width: 50%;
+    font-family: 'Amatic SC', cursive;
+font-size: 2vw;
     margin-left: 25%;
     color: white;
     margin-top: 5%;
@@ -140,18 +137,24 @@ input:active {
     padding: 1% 0 1% 0;
 }
 
+#treat-card {
+    width: 33%;
+    display: inline-block;
+    padding: 0 0 0 0;
+    margin: 5% 0 5% 0;
+}
 
 #treat-card > img {
-    width: 25%;
-    margin-left: 5%;
+    width: 75%;
+    margin-left: 12.5%;
     border: 2px solid rgb(248, 16, 55);
     border-radius: 360px;
 }
 
 #treat-card > select {
-    width: 10%;
+    width: 75%;
     border: 1px solid rgb(255, 49, 83);
-    margin: 2.5% 0 0 2%;
+    margin: 2.5% 0 0 12.5%;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-weight: 900;
@@ -245,8 +248,7 @@ input:active {
     }
     
     #submit-button {
-        background-color: rgb(255, 159, 175);
-        border-bottom: 4px solid rgb(248, 16, 55);
+        font-family: 'Amatic SC', cursive;
         padding: 2% 0 2% 0;
         margin-top: 20%;
     }
@@ -260,10 +262,10 @@ input:active {
     }
 
     #treat-card > select {
-        width: 20%;
+        width: 75%;
         height: 30px;
         border: 1px solid rgb(255, 49, 83);
-        margin: 2% 0 0 16%;
+        margin: 2% 0 0 20%;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         font-weight: 900;

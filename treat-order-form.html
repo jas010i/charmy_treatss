@@ -14,11 +14,14 @@
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
             <link href="StyleSheets/treats.css" rel="stylesheet" type="text/css">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
 
         <!--Javascript Links Here-->
-            <script src="Javascript/menu.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 
         <!--Bootstrap/google font links here-->
@@ -31,7 +34,7 @@
 
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
 
         <div class="header-title">
             <a href="index.html">
@@ -41,6 +44,9 @@
         </div>
  
         <div class="navbar1">
+
+            <a href="index.html" id="banner">Charmy Treats</a>
+
 
             <a href="index.html">
                 <svg id="hashbar-right" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -83,27 +89,27 @@
     </header>
 
 
-                    <h1 id="title-order-form">
+                    <h1 id="title-order-form" data-aos="fade-left" data-aos-duration="1000">
                         Let's get your order ready!
                     </h1>
 
 
 
 
-        <form action="../charmy_treats/PHP/send_order.php" method="POST">
+        <form action="../charmy_treats/PHP/send_order.php" method="POST" data-aos="fade-up" data-aos-duration="1000">
 
 
         <div class="input-form">
-            <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
-            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
-            <label for="date" id="date">Requested Date:</label>
-            <input type="date" id="date" name="date" placeholder="By when do you need the order?" required>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required data-aos="fade-up" data-aos-duration="1000"><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required data-aos="fade-up" data-aos-duration="1000">
+            <input type="email" id="email" name="email" placeholder="Email" required data-aos="fade-up" data-aos-duration="1000">
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" data-aos="fade-up" data-aos-duration="1000">
+            <label for="date" id="date" data-aos="fade-up" data-aos-duration="1000">Requested Date:</label>
+            <input type="date" id="date" name="date" placeholder="By when do you need the order?" required data-aos="fade-up" data-aos-duration="1000">
         </div>
 
 
-            <div id="treat-card">
+            <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
             <img src="Images/treats_page/treats-strawberry-cheesecake-1.jpg" alt="Strawberry Cheesecake"><br>
                 <select id="cc_strawberry" name="cc_strawberry">
                     <option value="null"></option>
@@ -114,7 +120,7 @@
                 </select>
             </div>
 
-            <div id="treat-card">
+            <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                 <img src="Images/treats_page/treats-chocolate-straberry-cake-1.jpeg" alt="Chocolate Cake with Strawberry Topping"><br>
                     <select id="cake_chocStraw" name="cake_chocStraw">
                         <option value="null"></option>
@@ -125,7 +131,7 @@
                     </select>
                 </div>
 
-                <div id="treat-card">
+                <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                     <img src="Images/treats_page/treats-cake-pop-1.jpeg" alt="Cake Pop"><br>
                         <select id="cakepop_1" name="cakepop_1">
                             <option value="null"></option>
@@ -136,7 +142,7 @@
                         </select>
                     </div>
 
-                    <div id="treat-card">
+                    <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                         <img src="Images/treats_page/treats-cake-pop-2.jpg" alt="Cake Pop"><br>
                             <select id="cakepop_2" name="cakepop_2">
                                 <option value="null"></option>
@@ -148,7 +154,7 @@
                         </div>
 
                         
-                    <div id="treat-card">
+                    <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                         <img src="Images/treats_page/treats-oreo-bites.jpg" alt="Oreo Bites"><br>
                             <select id="oreobites" name="oreobites">
                                 <option value="null"></option>
@@ -160,7 +166,7 @@
                         </div>
 
                                                 
-                    <div id="treat-card">
+                    <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                         <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                             <select id="pie_1" name="pie_1">
                                 <option value="null"></option>
@@ -171,7 +177,7 @@
                             </select>
                         </div>
 
-                        <div id="treat-card">
+                        <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                             <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                                 <select id="pie_1" name="pie_1">
                                     <option value="null"></option>
@@ -182,7 +188,7 @@
                                 </select>
                             </div>
 
-                            <div id="treat-card">
+                            <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
                                 <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                                     <select id="pie_1" name="pie_1">
                                         <option value="null"></option>
@@ -193,7 +199,7 @@
                                     </select>
                                 </div>
 
-                            <button id="submit-button">Submit Order</button>
+                            <button id="submit-button" data-aos="fade-up" data-aos-duration="1000">Submit Order</button>
 
 
 
@@ -231,8 +237,8 @@
         
             <div class="footer-list2">
         
-                <a href="leave-review.html">Leave a Review</a>
-                    <br><br>
+                <a href="reviews.html">Leave a Review</a>
+                <br><br>
                 <a href="notice.html">Notice about Ingredients</a>
         
             </div>
@@ -245,7 +251,9 @@
         </footer>
         
         
-        
+        <script>
+            AOS.init();
+          </script>
         
         </body>
         
