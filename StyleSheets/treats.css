@@ -200,6 +200,15 @@ font-size: 2vw;
 
 
 @media only screen and (max-width: 700px) {
+
+    h1#title-order-form {
+        font-size: 9vw;
+        width: 96%;
+        margin: 35% 0 10% 2%;
+        font-family: 'Amatic SC', cursive;
+        color: rgb(248, 16, 55);
+    }
+
     div.treat-feed {
         display: block;
         position: relative;
@@ -238,7 +247,7 @@ font-size: 2vw;
         display: block;
         position: relative;
         height: 1000px;
-        margin: 40% 0 75% 0;
+        margin: 10% 0 75% 0;
     }
     
     .input-form {
