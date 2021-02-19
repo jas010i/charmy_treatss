@@ -306,7 +306,7 @@ font-size: 2vw;
     #treat-card > img {
         width: 75%;
         margin-left: 20%;
-        margin-top: 0%;
+        margin-top: 10%;
         border: 2px solid rgb(248, 16, 55);
         border-radius: 360px;
     }
