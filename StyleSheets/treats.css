@@ -27,6 +27,8 @@ div.treat-feed > div.accordion > .offset-white > h3 {
     color: rgb(248, 16, 55);
     font-size: 4vw;
 }
+
+
 div.treat-feed > div.accordion > .offset-pink > h3 {
     margin-left: 2%;
     width: 96%;
@@ -205,6 +207,33 @@ font-size: 2vw;
         margin-bottom: 200%;
     }
 
+    div.treat-feed > h1 {
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        color: rgb(248, 16, 55);
+        font-weight: bolder;
+        font-size: 9vw;
+        margin: 0 0 0 0;
+        padding: 1% 0 5% 0;
+    }
+
+    div.treat-feed > div.accordion > .offset-white > h3 {
+        margin-left: 2%;
+        width: 96%;
+        font-family: 'Amatic SC', cursive;
+        color: rgb(248, 16, 55);
+        font-size: 6vw;
+    }
+    
+    
+    div.treat-feed > div.accordion > .offset-pink > h3 {
+        margin-left: 2%;
+        width: 96%;
+        font-family: 'Amatic SC', cursive;
+        color: rgb(255, 255, 255);
+        font-size: 6vw;
+    }
+
     form {
         display: block;
         position: relative;
@@ -276,13 +305,13 @@ font-size: 2vw;
     
 
     div.accordion > .offset-white > div.dropdown-list > img{
-        width: 17%;
+        width: 35%;
         border: 1px solid rgb(248, 16, 55);
         border-radius: 360px;
         margin: 2% 0 0 2%;
     }
     div.accordion > .offset-pink > div.dropdown-list > img{
-        width: 17%;
+        width: 35%;
         border: 1px solid rgb(248, 16, 55);
         border-radius: 360px;
         margin: 2% 0 0 2%;
@@ -314,7 +343,7 @@ font-size: 2vw;
         font-size: 5vw;
         transition: .5s ease-in-out;
         text-align: center;
-        margin: 20% 0 10% 10%;
+        margin: 275% 0 10% 10%;
     }
     
     a.treat-form-link1:hover {
