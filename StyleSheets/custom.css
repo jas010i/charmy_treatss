@@ -68,6 +68,14 @@ footer {
     background-color: indigo;
 }
 
+
+/****************************************************************************/
+/******************************mobile css************************************/
+/****************************************************************************/
+
+
+
+
 @media only screen and (max-width: 700px) {
     
     .custom-body {
@@ -81,7 +89,7 @@ footer {
         font-family: 'Amatic SC', cursive;
         color: indigo;
         font-weight: bolder;
-        font-size: 8vw;
+        font-size: 9vw;
     }    
     
     div.custom-body > p {

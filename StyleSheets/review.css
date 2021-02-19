@@ -140,7 +140,7 @@ textarea:focus {
         font-family: 'Amatic SC', cursive;
         color: rgb(248, 16, 55);
         font-weight: bolder;
-        font-size: 6vw;
+        font-size: 9vw;
     }
     
     div.review-feed > div.review-block > h3 {
