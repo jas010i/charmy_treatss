@@ -622,17 +622,19 @@ footer {
 }
 
 footer > .footer-list {
-    padding-top: 5%;
-    width: 50%;
+    padding: 0;
+    width: 100%;
     float: left;
 }
 
 footer > .footer-list > a {
     text-align: center;
-    margin: 5%;
+    padding-top: 2%;
+    display: block;
+    margin: 0;
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 5vw;
+    font-size: 6vw;
     text-decoration: none;
     transition: .5s ease-in-out;
     z-index: +1;
@@ -640,17 +642,22 @@ footer > .footer-list > a {
 }
 
 footer > .footer-list2 {
-    display: inline-block;
-    padding-top: 5%;
-    width: 50%;
+    padding: 0;
+    width: 100%;
+}
+
+.footer-list:first-of-type {
+    padding-top: 10%;
 }
 
 footer > .footer-list2 > a {
     text-align: center;
-    margin: 5%;
+    padding-top: 2%;
+    display: block;
+    margin: 0;
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 5vw;
+    font-size: 6vw;
     text-decoration: none;
     transition: .5s ease-in-out;
     z-index: +1;
@@ -667,8 +674,8 @@ footer > p#copyright {
 
 footer > img {
     width: 100%;
-    display: block;
-    height: 25%;
+    display: none;
+    height: 50%;
     position: absolute;
     filter: opacity(.7);
 }
