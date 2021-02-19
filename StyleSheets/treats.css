@@ -153,9 +153,20 @@ font-size: 2vw;
     border-radius: 360px;
 }
 
+#treat-card > p {
+    width: 75%;
+    margin: 2% 0 0 12.5%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size: 2vw;
+}
+
 #treat-card > select {
     width: 75%;
-    border: 1px solid rgb(255, 49, 83);
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgb(255, 49, 83);
     margin: 2.5% 0 0 12.5%;
     text-align: center;
     font-family: 'Amatic SC', cursive;
@@ -246,7 +257,7 @@ font-size: 2vw;
     form {
         display: block;
         position: relative;
-        height: 1000px;
+        height: 1250px;
         margin: 10% 0 75% 0;
     }
     
@@ -295,15 +306,27 @@ font-size: 2vw;
     #treat-card > img {
         width: 75%;
         margin-left: 20%;
-        margin-top: 10%;
+        margin-top: 0%;
         border: 2px solid rgb(248, 16, 55);
         border-radius: 360px;
     }
 
+    #treat-card > p {
+        width: 75%;
+        margin: 2% 0 0 20%;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 900;
+        font-size: 5vw;
+    }
+
+
     #treat-card > select {
         width: 75%;
         height: 30px;
-        border: 1px solid rgb(255, 49, 83);
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid rgb(255, 49, 83);
         margin: 2% 0 0 20%;
         text-align: center;
         font-family: 'Amatic SC', cursive;
