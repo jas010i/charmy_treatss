@@ -257,7 +257,7 @@ font-size: 2vw;
     form {
         display: block;
         position: relative;
-        height: 1250px;
+        height: 1600px;
         margin: 10% 0 75% 0;
     }
     
@@ -311,14 +311,26 @@ font-size: 2vw;
         border-radius: 360px;
     }
 
-    #treat-card > p {
-        width: 75%;
-        margin: 2% 0 0 20%;
+    #treat-card > p#title-treat {
+        width: 95%;
+        height: 60px;
+        margin: 10% 0 0 10%;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         font-weight: 900;
         font-size: 5vw;
     }
+
+    
+    #treat-card > p#price {
+        width: 95%;
+        margin: 2% 0 0 10%;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 900;
+        font-size: 5vw;
+    }
+
 
 
     #treat-card > select {
@@ -327,7 +339,7 @@ font-size: 2vw;
         border: none;
         background-color: rgba(0, 0, 0, 0);
         border-bottom: 1px solid rgb(255, 49, 83);
-        margin: 2% 0 0 20%;
+        margin: 0 0 0 20%;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         font-weight: 900;
