@@ -62,7 +62,7 @@ $sql = "INSERT INTO client_review (firstName, lastName, clientReview)
 
               VALUES ('$fname', '$lname', '$review')";
     if($mysqli->query($sql) === true){
-      echo "Thank you for your submission.";
+      echo "Thank you for placing your order";
     } else{
       echo "ERROR: Could not submit form data. " . $mysqli->error;
     }
@@ -73,21 +73,7 @@ $sql = "INSERT INTO client_review (firstName, lastName, clientReview)
 
 ?>
 
-<script>
 
-
-function redirect() {
-    window.location.href = "C:\xampp\htdocs\charmy_treats\index.html";
-}
-
-
-</script>
-
-
-
-            </head>
-
-<body onload="redirect();"></body>
 
 
 </html>
