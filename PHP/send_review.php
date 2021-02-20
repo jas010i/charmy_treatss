@@ -72,3 +72,22 @@ $sql = "INSERT INTO client_review (firstName, lastName, clientReview)
 
 
 ?>
+
+<script>
+
+
+function redirect() {
+    window.location.href = "C:\xampp\htdocs\charmy_treats\index.html";
+}
+
+
+</script>
+
+
+
+            </head>
+
+<body onload="redirect();"></body>
+
+
+</html>
