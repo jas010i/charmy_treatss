@@ -11,8 +11,8 @@ function enlargeImg() {
     var closeBtn = document.getElementById('close-btn');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -25,7 +25,8 @@ function closeImage() {
     var closeBtn = document.getElementById('close-btn');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
 
 
                         closeBtn.style.display = "none";
@@ -44,8 +45,8 @@ function enlargeImg2() {
     var closeBtn = document.getElementById('close-btn2');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -58,7 +59,8 @@ function closeImage2() {
     var closeBtn = document.getElementById('close-btn2');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
 
 
                         closeBtn.style.display = "none";
@@ -77,8 +79,8 @@ function enlargeImg3() {
     var closeBtn = document.getElementById('close-btn3');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -91,7 +93,9 @@ function closeImage3() {
     var closeBtn = document.getElementById('close-btn3');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";
@@ -110,8 +114,8 @@ function enlargeImg4() {
     var closeBtn = document.getElementById('close-btn4');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -124,7 +128,9 @@ function closeImage4() {
     var closeBtn = document.getElementById('close-btn4');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";
@@ -143,8 +149,8 @@ function enlargeImg5() {
     var closeBtn = document.getElementById('close-btn5');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -157,7 +163,9 @@ function closeImage5() {
     var closeBtn = document.getElementById('close-btn5');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";
@@ -176,8 +184,8 @@ function enlargeImg6() {
     var closeBtn = document.getElementById('close-btn6');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -190,7 +198,9 @@ function closeImage6() {
     var closeBtn = document.getElementById('close-btn6');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";
@@ -209,8 +219,8 @@ function enlargeImg7() {
     var closeBtn = document.getElementById('close-btn7');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -223,7 +233,9 @@ function closeImage7() {
     var closeBtn = document.getElementById('close-btn7');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";
@@ -242,8 +254,8 @@ function enlargeImg8() {
     var closeBtn = document.getElementById('close-btn8');
 
 
-                popUp.style.width = "90%";
-                popUp.style.marginLeft = "5%";
+                popUp.style.width = "100%";
+                popUp.style.marginLeft = "0%";
 
 
                         closeBtn.style.display = "block";
@@ -256,7 +268,9 @@ function closeImage8() {
     var closeBtn = document.getElementById('close-btn8');
 
 
-                popUp.style.width = "35%";
+                popUp.style.width = "75%";
+                popUp.style.marginLeft = "17%";
+
 
 
                         closeBtn.style.display = "none";

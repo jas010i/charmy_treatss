@@ -32,6 +32,10 @@
     transition: .3s ease-in-out;
 }
 
+#img8 {
+    transition: .3s ease-in-out;
+}
+
 
 
 /***************************************************************/
@@ -145,6 +149,22 @@
 }
 
 #close-btn7:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn8 {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn8:hover {
     cursor: pointer; 
     color: rgb(250, 60, 92); 
     transition: .3s ease-in-out;

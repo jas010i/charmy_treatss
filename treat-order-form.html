@@ -12,6 +12,7 @@
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
             <link href="StyleSheets/treats.css" rel="stylesheet" type="text/css">
+            <link href="StyleSheets/modal.css" rel="stylesheet" type="text/css">
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
@@ -19,6 +20,8 @@
 
         <!--Javascript Links Here-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="JS/modal-order.js"></script>
+
 
 
 
@@ -108,7 +111,11 @@
 
 
             <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-            <img src="Images/treats_page/treats-strawberry-cheesecake-1.jpg" alt="Strawberry Cheesecake"><br>
+                <svg onclick="closeImage();" id="close-btn" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            <img id="img1" onclick="enlargeImg();" src="Images/treats_page/treats-strawberry-cheesecake-1.jpg" alt="Strawberry Cheesecake"><br>
             <p id="title-treat">Strawberry Cheesecake</p>
             <p id="price">$$$$</p>
                 <select id="cc_strawberry" name="cc_strawberry">
@@ -121,7 +128,11 @@
             </div>
 
             <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                <img src="Images/treats_page/treats-chocolate-straberry-cake-1.jpeg" alt="Chocolate Cake with Strawberry Topping"><br>
+                <svg onclick="closeImage2();" id="close-btn2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <img id="img2" onclick="enlargeImg2();" src="Images/treats_page/treats-chocolate-straberry-cake-1.jpeg" alt="Chocolate Cake with Strawberry Topping"><br>
                 <p id="title-treat">Chocolate Cake Topped w/ Real Strawberries</p>
                 <p id="price">$$$$</p>
                     <select id="cake_chocStraw" name="cake_chocStraw">
@@ -134,7 +145,11 @@
                 </div>
 
                 <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="Images/treats_page/treats-cake-pop-1.jpeg" alt="Cake Pop"><br>
+                    <svg onclick="closeImage3();" id="close-btn3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    <img id="img3" onclick="enlargeImg3();" src="Images/treats_page/treats-cake-pop-1.jpeg" alt="Cake Pop"><br>
                     <p id="title-treat">Cake Pop</p>
                     <p id="price">$$$$</p>
                         <select id="cakepop_1" name="cakepop_1">
@@ -147,7 +162,11 @@
                     </div>
 
                     <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="Images/treats_page/treats-cake-pop-2.jpg" alt="Cake Pop"><br>
+                        <svg onclick="closeImage4();" id="close-btn4" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        <img id="img4" onclick="enlargeImg4();" src="Images/treats_page/treats-cake-pop-2.jpg" alt="Cake Pop"><br>
                         <p id="title-treat">Cake Pop</p>
                         <p id="price">$$$$</p>
                             <select id="cakepop_2" name="cakepop_2">
@@ -161,7 +180,11 @@
 
                         
                     <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="Images/treats_page/treats-oreo-bites.jpg" alt="Oreo Bites"><br>
+                        <svg onclick="closeImage5();" id="close-btn5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        <img id="img5" onclick="enlargeImg5();" src="Images/treats_page/treats-oreo-bites.jpg" alt="Oreo Bites"><br>
                         <p id="title-treat">Oreo Bites</p>
                         <p id="price">$$$$</p>
                             <select id="oreobites" name="oreobites">
@@ -175,7 +198,11 @@
 
                                                 
                     <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
+                        <svg onclick="closeImage6();" id="close-btn6" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        <img id="img6" onclick="enlargeImg6();" src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                         <p id="title-treat">Pie</p>
                         <p id="price">$$$$</p>
                             <select id="pie_1" name="pie_1">
@@ -188,7 +215,11 @@
                         </div>
 
                         <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
+                            <svg onclick="closeImage7();" id="close-btn7" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                            <img id="img7" onclick="enlargeImg7();" src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                             <p id="title-treat">Pie</p>
                             <p id="price">$$$$</p>
                                 <select id="pie_1" name="pie_1">
@@ -201,7 +232,11 @@
                             </div>
 
                             <div id="treat-card" data-aos="fade-up" data-aos-duration="1000">
-                                <img src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
+                                <svg onclick="closeImage8();" id="close-btn8" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                                <img id="img8" onclick="enlargeImg8();" src="Images/treats_page/treats-pie-1.jpeg" alt="Pie"><br>
                                 <p id="title-treat">Pie</p>
                                 <p id="price">$$$$</p>
                                     <select id="pie_1" name="pie_1">
