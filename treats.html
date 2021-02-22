@@ -12,6 +12,7 @@
         <!--CSS Links Here-->
             <link href="StyleSheets/main.css" rel="stylesheet" type="text/css">
             <link href="StyleSheets/treats.css" rel="stylesheet" type="text/css">
+            <link href="StyleSheets/modal.css" rel="stylesheet" type="text/css">
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
             
 
@@ -105,31 +106,55 @@
                 <div data-aos="fade-right" data-aos-duration="1000" class="offset-white" style="margin-top: 10%;">
                 <h3 data-aos="fade-right" data-aos-duration="1000">Pies</h3>
                         <div data-aos="fade-right" data-aos-duration="1000" class="dropdown-list">
-                            <img onclick="enlargeImg();" id="myImg" src="Images/treats_page/treats-pie-1.jpeg">
-                            <img id="myImg" src="Images/treats_page/treats-pie-2.jpg">
+                            <img onclick="enlargeImg();" id="img1" src="Images/treats_page/treats-pie-1.jpeg">
+                            <svg onclick="closeImage();" id="close-btn" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>                
                         </div>
                 </div>
 
                 <div data-aos="fade-right" data-aos-duration="1000" class="offset-pink" style="margin-top: 10%;">
                 <h3>Cake Pops</h3>
                         <div data-aos="fade-right" data-aos-duration="1000" class="dropdown-list">
-                            <img id="imgModal" src="Images/treats_page/treats-cake-pop-1.jpeg">
-                            <img id="imgModal" src="Images/treats_page/treats-cake-pop-2.jpg">
+                            <img id="img2" onclick="enlargeImg2();" src="Images/treats_page/treats-cake-pop-1.jpeg">
+                            <img id="img3" onclick="enlargeImg3();" src="Images/treats_page/treats-cake-pop-2.jpg">
+                            <svg onclick="closeImage2();" id="close-btn2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>                
+                            <svg onclick="closeImage3();" id="close-btn3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>                
+
                         </div>
                 </div>
 
                 <div data-aos="fade-right" style="float: right;" data-aos-duration="1000" class="offset-white">
                 <h3>Cheesecake</h3>
                         <div data-aos="fade-right" data-aos-duration="1000" class="dropdown-list">
-                            <img id="imgModal" src="Images/treats_page/treats-strawberry-cheesecake-1.jpg">
+                            <img id="img4" onclick="enlargeImg4();" src="Images/treats_page/treats-strawberry-cheesecake-1.jpg">
+                            <svg onclick="closeImage4();" id="close-btn4" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg> 
                         </div>
                 </div>
                 
                 <div data-aos="fade-right" data-aos-duration="1000" class="offset-pink">
                 <h3>Cake / Cupcakes</h3>
                         <div data-aos="fade-right" data-aos-duration="1000" class="dropdown-list">
-                            <img id="imgModal" src="Images/treats_page/treats-cupcake-halloween.jpg">
-                            <img id="imgModal" src="Images/treats_page/treats-chocolate-straberry-cake-1.jpeg">
+                            <img id="img5" onclick="enlargeImg5();" src="Images/treats_page/treats-cupcake-halloween.jpg">
+                            <img id="img6" onclick="enlargeImg6();" src="Images/treats_page/treats-chocolate-straberry-cake-1.jpeg">
+                            <svg onclick="closeImage5();" id="close-btn5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg> 
+                            <svg onclick="closeImage6();" id="close-btn6" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg> 
                         </div>
                 </div>
 

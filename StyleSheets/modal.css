@@ -1,0 +1,151 @@
+
+
+/***************************************************************/
+/**************************image id's***************************/
+/***************************************************************/
+
+#img1 {
+    transition: .3s ease-in-out;
+}
+
+#img2 {
+    transition: .3s ease-in-out;
+}
+
+#img3 {
+    transition: .3s ease-in-out;
+}
+
+#img4 {
+    transition: .3s ease-in-out;
+}
+
+#img5 {
+    transition: .3s ease-in-out;
+}
+
+#img6 {
+    transition: .3s ease-in-out;
+}
+
+#img7 {
+    transition: .3s ease-in-out;
+}
+
+
+
+/***************************************************************/
+/**************************close buttons for image**************/
+/***************************************************************/
+
+
+
+#close-btn {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn2 {
+    display: none;
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn2:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn3 {
+    display: none; 
+    position: absolute; 
+    top: 2%; right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;}
+
+#close-btn3:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn4 {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn4:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn5 {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn5:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn6 {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn6:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn7 {
+    display: none; 
+    position: absolute; 
+    top: 2%; 
+    right: 2%; 
+    z-index: +5; 
+    color: rgb(255, 15, 55); 
+    transition: .3s ease-in-out;
+}
+
+#close-btn7:hover {
+    cursor: pointer; 
+    color: rgb(250, 60, 92); 
+    transition: .3s ease-in-out;
+}
