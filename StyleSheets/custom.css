@@ -60,7 +60,7 @@ button#submit {
 }
 
 ::placeholder {
-    color: rgb(128, 24, 226);
+    color: rgb(176, 93, 253);
 }
 
 
@@ -132,6 +132,9 @@ footer {
     button#submit {
         background-color: indigo;
         color: white;
+        width: 60%;
+        margin: 10% 0 10% 20%;
+        padding: 2%;
     }
 
 
