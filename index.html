@@ -202,6 +202,106 @@
 
     </div>
 
+
+
+
+
+
+    <div class="newsletter">
+
+<style>
+  .news-form {
+    width: 100%;
+  }
+
+  .news-form {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .news-form > form > h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vw;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .news-form > form > input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(248, 16, 55);
+    transition: .5s ease-in-out;
+    margin-bottom: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+  }
+
+  .news-form > form > button {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid rgb(248, 16, 55);
+    transition: .5s ease-in-out;
+    margin-bottom: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .news-form {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .news-form > form > h1 {
+      margin-top: 25%;
+      font-size: 7vw;
+    }
+
+    .news-form > form > input {
+      margin-bottom: 35%;
+      font-size: 5vw;
+    }
+
+    .news-form > form > button {
+      margin-bottom: 35%;
+      font-size: 5vw;
+    }
+
+  }
+</style>
+
+
+
+
+        <div class="news-form">
+
+            <form action="PHP/newsletter_signup.php" method="POST">
+            
+              <h1>Subscribe to our newsletter for the latest updates!</h1>
+
+                <input style="margin-bottom: 5%;" id="email" name="email" type="email" placeholder="Your email" required>
+
+                <button style="border-radius: 6px; background-color: rgb(255, 49, 83); border: 2px solid white; color: white;" id="submit" name="submit">Subscribe Now</button>
+            
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
     <footer>
 
         <img src="Images/logo_web/background-footer.png" alt="footer">
