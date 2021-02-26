@@ -109,7 +109,7 @@
 
 
 
-$email = $_POST['email']
+$email = $_POST['email'];
 
 
 
@@ -121,7 +121,7 @@ if ($mysqli === false){
 }
 
 
-$email = $_POST['email']
+$email = $_POST['email'];
 
 
 
