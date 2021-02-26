@@ -129,7 +129,7 @@ $email = $_POST['email'];
 
 $sql = "INSERT INTO subscribe_newsletter (email)
 
-              VALUES ('$email)";
+              VALUES ('$email')";
     if($mysqli->query($sql) === true){
       echo "Thanks for subscribing! We'll be sure to keep you up to date!";
     } else{
