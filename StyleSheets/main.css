@@ -130,6 +130,7 @@ div.welcome-body {
     right: 5%;
     margin: 2.5% 0 0 0;
     overflow-y: hidden;
+    border-radius: 7px;
 }
 
 .main-weekly-updates > #myCarousel > h1 {
@@ -182,7 +183,9 @@ div.welcome-body > .main-treat > h3 {
     background-color: rgb(248, 16, 55);
     font-weight: bolder;
     font-size: 1.5vw;
-    margin: 10% 0 0 0;
+    margin: 0 0 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 3% 0 3% 0;
 }
 
@@ -197,12 +200,39 @@ div.welcome-body > .main-treat > p {
     font-family: 'Amatic SC', cursive;
 }
 
+.month-treat {
+    width: 100%;
+    margin: 0 0 0 0;
+}
 
+.month-treat > .month-menu {
+    display: inline-block;
+    width: 25%;
+    margin: 5% 0 10% 17.5%;
+}
+
+.month-treat > .month-price {
+    display: inline-block;
+    width: 25%;
+    margin: 5% 0 10% 17.5%;
+}
+
+.month-menu > img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.month-price > img {
+    width: 100%;
+    border-radius: 7px;
+}
 
 
 .main-treat {
     width: 40%;
     margin: 0 0 0 30%;
+    border:  1px solid white;
+    border-radius: 10px;
 }
 
 
@@ -216,6 +246,7 @@ div.welcome-body > .main-treat > p {
 div.welcome-body > .main-treat #treat-month-img > img {
     width: 40%;
     margin: 0 0 0 30%;
+    border-radius: 7px;
 }
 
 div.welcome-body > .main-treat > ul {
@@ -225,6 +256,7 @@ div.welcome-body > .main-treat > ul {
     font-weight: 700;
     text-align: center;
     list-style-type: none;
+    padding: 0;
 }
 
 
@@ -233,13 +265,14 @@ div.welcome-body > a.treat-form-link {
     text-decoration: none;
     color: white;
     background-color: rgb(255, 49, 83);
-    margin: 0 0 5% 35%;
+    margin: 5% 0 5% 35%;
     display: block;
     width: 30%;
     padding: 1%;
     font-size: 1.5vw;
     transition: .5s ease-in-out;
     text-align: center;
+    border-radius: 10px;
 }
 
 div.welcome-body > a.treat-form-link:hover {
@@ -540,9 +573,39 @@ div.welcome-body > img {
     margin-left: 0;
 }
 
+
+
+
+.month-treat {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.month-treat > .month-menu {
+    display: inline-block;
+    width: 100%;
+    margin: 80% 0 0 0;
+}
+
+.month-treat > .month-price {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.month-menu > img {
+    width: 100%;
+}
+
+.month-price > img {
+    width: 100%;
+}
+
+
+
 .main-treat {
     width: 90%;
-    margin: 80% 0 0 5%;
+    margin: 30% 0 0 5%;
     border: 1px solid rgb(255, 189, 200);
     border-radius: 20px;
 }
